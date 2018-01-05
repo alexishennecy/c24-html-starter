@@ -1,3 +1,29 @@
 body {
     background-color: darkcyan;
 }
+
+.container {
+    background-color: bisque;
+}
+/* lots of things can use a class, but we can only have one ID that is unique per page */
+
+footer {
+    background-color: plum;
+    color: bisque;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex; 
+    width: 100%;
+}
+
+.flex-section {
+
+}
+
+.flex-item {
+  margin: 1em;
+  /* this allows us to size things relatively instead of pixel by pixel */
+}
