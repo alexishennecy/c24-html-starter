@@ -7,6 +7,11 @@ body {
 }
 /* lots of things can use a class, but we can only have one ID that is unique per page */
 
+nav ul {
+    display: flex;
+    display: -webkit-flex;  
+}
+
 footer {
     background-color: plum;
     color: bisque;
